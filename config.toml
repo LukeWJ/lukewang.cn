@@ -97,4 +97,4 @@ title = "Luke Wang 的博客"
 	[[languages.zh-cn.menu.main]]
 		name = "旅行"
 		weight = 6
-		url  = "/trip/"
+		url  = "/trips/"
