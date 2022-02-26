@@ -1,0 +1,100 @@
+baseURL = "http://lukewang.cn"
+title = "LukeWang的博客"
+theme = "hugo-coder"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+# Enable Disqus comments
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+author = "Luke Wang"
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+description = "Luke Wang的个人博客"
+keywords = "互联网金融,.NetCore,Python、ABP、项目管理、软件架构、DevOps、读书、旅行、ETF投资"
+info = [".Net程序员","轻度户外爱好者" ]
+avatarURL = "images/avatar.jpg"
+#gravatar = "junw163@163.com"
+dateFormat = "2006-01-02"
+since = 2022
+# Git Commit in Footer, uncomment the line below to enable it
+#commit = "https://github.com/luizdepra/hugo-coder/tree/"
+# Right To Left, shift content direction for languagues such as Arabic
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/LukeWJ"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-2x fa-twitter"
+weight = 3
+url = "https://twitter.com/xxaccp"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/%E4%BF%8A-%E7%8E%8B-8216b413a/"
+
+[[params.social]]
+name = "RSS"
+icon = "fa fa-2x fa-rss"
+weight = 6
+url = "index.xml"
+
+[languages.zh-cn]
+languagename = "Chinese"
+title = "Luke Wang 的博客"
+
+[languages.zh-cn.menu]
+	[[languages.zh-cn.menu.main]]
+		name = "关于"
+		weight = 2
+		url = "/about/"
+	[[languages.zh-cn.menu.main]]
+		name = "读书"
+		weight = 3
+		url  = "/read/"
+	[[languages.zh-cn.menu.main]]
+		name = "编程"
+		weight = 4
+		url  = "/dev/"
+	[[languages.zh-cn.menu.main]]
+		name = "理财"
+		weight = 5
+		url  = "/money/"
+	[[languages.zh-cn.menu.main]]
+		name = "旅行"
+		weight = 6
+		url  = "/trip/"
