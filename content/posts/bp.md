@@ -1,12 +1,12 @@
 +++ 
-draft = true
+draft = false
 date = 2022-03-07T19:57:15+08:00
 title = "BP算法"
 description = "BP算法"
 slug = ""
 authors = []
-tags = [BP]
-categories = [AI]
+tags = ['BP']
+categories = ['AI']
 externalLink = ""
 series = []
 +++
