@@ -1,8 +1,8 @@
 +++ 
 draft = false
 date = 2022-03-07T19:57:15+08:00
-title = "BP算法"
-description = "BP算法"
+title = "BP算法简述"
+description = "BP算法，人工神经网络深入浅出"
 slug = ""
 authors = []
 tags = ['BP']
@@ -93,7 +93,7 @@ https://www.cnblogs.com/tangjunjun/articles/11649356.html
 
 ![image-20220301133728167](http://cdn.lukewang.cn/dev/image-20220301133728167.png)
 
-系数 ![\textstyle {\frac  {1}{2}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1f4b147775b52f71eacf8937ff124ac92f0574d2) 是为了抵消微分出来的指数
+系数 1/2 是为了抵消微分出来的指数
 
 
 

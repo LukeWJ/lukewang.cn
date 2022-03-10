@@ -49,15 +49,7 @@ function main() {
 
 main();
 
-// toast
-function launch_toast(text) {
-    var x = document.getElementById("toast")
-    x.textContent = text;
-    x.className = "show";
-    setTimeout(function(){ 
-        x.className = x.className.replace("show", ""); 
-    }, 5000);
-}
+
 
 // web share text
 function getSelectionHtml() {

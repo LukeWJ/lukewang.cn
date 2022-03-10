@@ -33,15 +33,21 @@ rtl = false
 colorScheme = "auto"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
+hidecredits = true
+hidecopyright = false
+
+series = true
+
+
 # Series see also post count
 maxSeeAlsoItems = 5
 # Custom CSS
-customCSS = []
+#customCSS = ["/css/main.css"]
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 customSCSS = []
 # Custom JS
-customJS = []
-
+#customJS = ["/js/lazysizes.min.js", "/js/flying-pages.min.js", "/js/custom.js"]
+math = true
 
 [taxonomies]
 category = "categories"
