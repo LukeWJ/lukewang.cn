@@ -15,7 +15,7 @@ enableEmoji = true
 author = "Luke Wang"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Luke Wang的个人博客"
-keywords = "互联网金融,.NetCore,Python、ABP、项目管理、软件架构、DevOps、读书、旅行、ETF投资"
+keywords = "互联网金融,.NetCore,Python、项目管理、软件架构、DevOps、读书、旅行、ETF投资"
 info = [".Net程序员","轻度户外爱好者" ]
 avatarURL = "images/avatar.jpg"
 #gravatar = "junw163@163.com"
@@ -55,25 +55,19 @@ series = "series"
 tag = "tags"
 author = "authors"
 
-[[params.social]]
+[[params.socials]]
 name = "Github"
 icon = "fa fa-2x fa-github"
 weight = 1
 url = "https://github.com/LukeWJ"
 
-[[params.social]]
+[[params.socials]]
 name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 3
 url = "https://twitter.com/xxaccp"
 
-[[params.social]]
-name = "LinkedIn"
-icon = "fa fa-2x fa-linkedin"
-weight = 4
-url = "https://www.linkedin.com/in/%E4%BF%8A-%E7%8E%8B-8216b413a/"
-
-[[params.social]]
+[[params.socials]]
 name = "RSS"
 icon = "fa fa-2x fa-rss"
 weight = 6
@@ -86,7 +80,7 @@ title = "Luke Wang 的博客"
 [languages.zh-cn.menu]
 	[[languages.zh-cn.menu.main]]
 		name = "关于"
-		weight = 2
+		weight = 7
 		url = "/about/"
 	[[languages.zh-cn.menu.main]]
 		name = "读书"
@@ -104,3 +98,9 @@ title = "Luke Wang 的博客"
 		name = "旅行"
 		weight = 6
 		url  = "/trips/"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

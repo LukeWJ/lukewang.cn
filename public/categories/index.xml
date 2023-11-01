@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Luke Wang 的博客</title>
+    <link>http://lukewang.cn/categories/</link>
+    <description>Recent content in Categories on Luke Wang 的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 07 Mar 2022 19:57:15 +0800</lastBuildDate>
+    <atom:link href="http://lukewang.cn/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>http://lukewang.cn/categories/ai/</link>
+      <pubDate>Mon, 07 Mar 2022 19:57:15 +0800</pubDate>
+      <guid>http://lukewang.cn/categories/ai/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
